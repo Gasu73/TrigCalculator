@@ -1,0 +1,15 @@
+# Archivo específico a ignorar (¡No se sube!)
+TrigCalculator.java
+
+# Carpetas de compilación de C# / .NET
+[Bb]in/
+[Oo]bj/
+
+# Archivos temporales y configuraciones de respaldos de IDEs
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+
