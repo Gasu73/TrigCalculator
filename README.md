@@ -1,6 +1,6 @@
 # Calculadora Trigonométrica
 
-Aplicación de consola desarrollada en Java que permite calcular funciones trigonométricas directas, inversas e hiperbólicas.
+Aplicación de consola desarrollada en C# que permite calcular funciones trigonométricas directas, inversas e hiperbólicas.
 
 ## Funciones disponibles
 
