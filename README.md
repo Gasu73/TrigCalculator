@@ -13,9 +13,3 @@ Aplicación de consola desarrollada en Java que permite calcular funciones trigo
 - sinh(α)
 - cosh(α)
 - tanh(α)
-
-## Ejecución
-
-```bash
-javac TrigCalculator.java
-java TrigCalculator
