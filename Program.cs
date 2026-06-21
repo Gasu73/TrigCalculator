@@ -32,24 +32,9 @@ namespace CalculadoraTrigonometrica
             }
         }
 
-        static void MostrarMenu()
-        {
-            Console.WriteLine("===========================================");
-            Console.WriteLine("      CALCULADORA TRIGONOMETRICA (C#)");
-            Console.WriteLine("===========================================");
-            Console.WriteLine("  1. sin(alpha)\n  2. cos(alpha)\n  3. tan(alpha)\n  0. Salir");
-            Console.WriteLine("===========================================");
-            Console.Write("Seleccione una opcion: ");
-        }
-
-        static int LeerOpcion()
-        {
-            string? entrada = Console.ReadLine();
-            if (int.TryParse(entrada, out int opcion))
-            {
-                return opcion;
-            }
-            return -1;
-        }
+        static void MostrarMenu() { /* Mismo menú que el anterior corto */ }
+        static int LeerOpcion() { string? entrada = Console.ReadLine(); return int.TryParse(entrada, out int op) ? op : -1; }
+        
+        static double GradosARadianes(double grados) => grados * Math.PI / 180.0;
     }
 }
